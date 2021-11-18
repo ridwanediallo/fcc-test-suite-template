@@ -16,12 +16,18 @@
 
     <!-- adding a form Survey -->
     <form action="" id="survey-form">
-      <label for="name">Your name : </label>
-      <input type="text" name="" id="name" required>
-      <label for="email">Your email : </label>
-      <input type="email" name="" id="email" required>
-      <label for="number">Enter number : </label>
-      <input type="number" name="" id="number" required>
+      <div>
+      <label id="name-label" for="name">Your name : </label>
+      <input type="text" name="" id="name" placeholder="Enter your name" required>
+      </div>
+      <div>
+      <label id="email-label" for="email">Your email : </label>
+      <input type="email" name="" id="email" placeholder="Enter your email" required>
+      </div>
+      <div>
+      <label id="number-label" for="number">Enter number : </label>
+      <input type="number" name="" id="number" min="9" max="12" placeholder="Enter your number" required>
+      </div>
       <button type="submit">Submit</button>
     </form>
   </div>
