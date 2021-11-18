@@ -17,17 +17,73 @@
     <!-- adding a form Survey -->
     <form action="" id="survey-form">
       <div>
-      <label id="name-label" for="name">Your name : </label>
-      <input type="text" name="" id="name" placeholder="Enter your name" required>
+        <label id="name-label" for="name">Your name : </label>
+        <input type="text" name="" id="name" placeholder="Enter your name" required>
       </div>
       <div>
-      <label id="email-label" for="email">Your email : </label>
-      <input type="email" name="" id="email" placeholder="Enter your email" required>
+        <label id="email-label" for="email">Your email : </label>
+        <input type="email" name="" id="email" placeholder="Enter your email" required>
       </div>
       <div>
-      <label id="number-label" for="number">Enter number : </label>
-      <input type="number" name="" id="number" min="9" max="12" placeholder="Enter your number" required>
+        <label id="number-label" for="number">Enter number : </label>
+        <input type="number" name="" id="number" min="9" max="12" placeholder="Enter your number" required>
       </div>
+      <div>
+        <label for="dropdown">Which favorite programming language?</label>
+        <select name="" id="dropdown">
+          <option value="JavaScript">JavaScript</option>
+          <option value="Python">Python</option>
+          <option value="Ruby">Ruby</option>
+          <option value="PHP">PHP</option>
+        </select>
+      </div>
+      <div>
+      
+        <label for="">What is your favorite Framework?</label>
+        <div>
+          <input type="radio" name="Angular" id="">
+          <label for="Angular">Angular</label>
+        </div>
+        <div>
+          <input type="radio" name="Laravel" id="">
+          <label for="Laravel">Laravel</label>
+        </div>
+        <div>
+          <input type="radio" name="Django" id="">
+          <label for="Django">Django</label>
+        </div>
+        <div>
+          <input type="radio" name="Ruby on Rails" id="">
+          <label for="Ruby on rails">Ruby on Rails</label>
+        </div>
+        
+      </div>
+      <div>
+        
+        <label for="">What are trending technologies in your opinion?</label>
+        
+        <div>
+          <input type="checkbox" name="reactjs" id="">
+          <label for="react">Reactjs</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Angular" id="">
+          <label for="Angular">Angular</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Laravel" id="">
+          <label for="Laravel">Laravel</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Django" id="">
+          <label for="Django">Django</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Ruby on Rails" id="">
+          <label for="Ruby on rails">Ruby on Rails</label>
+        </div>
+      </div>
+      
       <button type="submit">Submit</button>
     </form>
   </div>
