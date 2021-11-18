@@ -9,6 +9,7 @@ body {
   max-width: 50%;
   margin: 0 auto;
   background-color: red;
+  padding: 60px 30px;
 }
 
 header {
@@ -18,14 +19,42 @@ header {
 div {
   margin-bottom: 15px;
 }
-.inputs{
-    width: 100%;
-    padding: 10px 0;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+.inputs {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.inputs::placeholder{
-    padding-left: 10px;
+/* .choose {
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+} */
+input[type=radio] {
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transform: scale(1.5);
 }
+input[type=checkbox] {
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    /* transform: scale(1.5); */
+    transform: scale(1.5);
+}
+
+input {
+  margin-top: 5px;
+}
+
+.inputs::placeholder {
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+option {
+    font-size: 15px;
+}
+
+
